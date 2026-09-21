@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 40px; /* Adjust logo height as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.icons img {
+    height: 20px; /* Adjust icon height as needed */
+    margin-left: 10px; /* Adjust spacing between icons */
+}
+
+.dropdowns {
+    display: flex;
+    margin-top: 10px; /* Adjust the margin to move the dropdowns down */
+}
+
+.filter-dropdown,
+.new-arrival-dropdown {
+    margin-right: 20px; /* Adjust the margin to space the dropdowns */
+}
+
+.filter-dropdown select,
+.new-arrival-dropdown select {
+    width: 150px; /* Adjust the width of the dropdowns */
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-item {
+    width: 25%;
+    position: relative;
+  }
+  
+  .image-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .price {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .image-info img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }

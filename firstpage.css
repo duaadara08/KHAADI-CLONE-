@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+.background-images {
+    position: relative;
+}
+
+.first-image {
+    background-image: url("number\ 1\ .1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+    background-color: #ffffffc5;
+}
+
+.second-image {
+    background-image: url("number\ 1.2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    height: 100vh; /* Adjust height as needed */
+}
+.third-image {
+    background-image: url("1.3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    height: 100vh; /* Adjust height as needed */
+}
+.fourth-image {
+    background-image: url("1.4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    height: 100vh; /* Adjust height as needed */
+}
+.fifth-image {
+    background-image: url("1.5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    height:100vh; /* Adjust height as needed */
+}
+.sixth-image {
+    background-image: url("1.6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    height: 100vh; /* Adjust height as needed */
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo img {
+    height: 40px; /* Adjust height as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.icons img {
+    height: 20px; /* Adjust height as needed */
+    margin-left: 10px; /* Adjust spacing between icons */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    gap: 10px;
+
+    /* puts images side by side */
+    flex-direction: row;
+
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.dropdown-content img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
