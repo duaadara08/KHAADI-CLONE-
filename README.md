@@ -4,7 +4,7 @@ A front-end e-commerce website inspired by the design and shopping experience of
 
 ## 🌐 Live Demo
 
-**[View the Live Website](https://duaadara08.github.io/KHAADI-CLONE/)**
+**[View the Live Website](https://duaadara08.github.io/KHAADI-CLONE-/)**
 
 ## 📌 About the Project
 
